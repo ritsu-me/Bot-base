@@ -1,2 +1,3 @@
 # easyestbot-base
-This is a most compact template of original Discord bot.   /   これは世界で一番コンパクトだと思われるDiscordボットのテンプレートです。
+これは世界で一番コンパクトだと思われるDiscordボットのテンプレートです。
+質問等ございましたら、[Auroraサーバー](https://discord.gg/3r5CTAM86D)までお願いします。
