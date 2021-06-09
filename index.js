@@ -22,9 +22,7 @@ client.login(token);
 
 //メッセージ対応
 client.on('message', async message =>{
-  if (message.author.id == client.user.id || message.author.bot){
-    return;
-  }
+  if (message.author.bot) return;
 if (message.content === "にゃーん"){
     message.reply("にゃーん")
       .then(message => console.log("Sent message: " + "にゃーん"))
