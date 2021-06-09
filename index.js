@@ -7,9 +7,7 @@ http.createServer(function (req, res) {
 
 //定義系
 const Discord = require('discord.js');
-const fetch = require("node-fetch");
 const client = new Discord.Client();
-const Client = new Discord.Client();
 const token = process.env.DISCORD_BOT_TOKEN;
 const prefix = "k#"
 
