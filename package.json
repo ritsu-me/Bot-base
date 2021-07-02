@@ -1,5 +1,5 @@
 {
-  "name": "Bot-base",
+  "name": "bot-base",
   "version": "0.0.1",
   "description": "これは世界で一番コンパクトだと思われるDiscordボットのテンプレートです。 質問等ございましたら、Auroraサーバーまでお願いします。",
   "main": "index.js",
