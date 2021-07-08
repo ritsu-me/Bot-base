@@ -1,32 +1,20 @@
 {
-  "//1": "describes your app and its dependencies",
-  "//2": "https://docs.npmjs.com/files/package.json",
-  "//3": "updating this file will download and update your packages",
-  "name": "hello-express",
+  "name": "bot-base",
   "version": "0.0.1",
-  "description": "A simple Node app built on Express, instantly up and running.",
+  "description": "これは世界で一番コンパクトだと思われるDiscordボットのテンプレートです。 質問等ございましたら、Auroraサーバーまでお願いします。",
   "main": "index.js",
   "scripts": {
     "start": "node index.js"
   },
   "dependencies": {
-    "discord.js": "^12.5.3",
-    "express": "^4.17.1",
-    "keyv": "^4.0.3",
-    "node-fetch": "^2.6.1",
-    "querystring": "^0.2.0",
+    "discord.js": "^12.5.3"
   },
   "engines": {
     "node": "12.x"
   },
   "repository": {
-    "url": "https://glitch.com/edit/#!/hello-express"
+    "url": "https://https://github.com/tubuanha/Bot-base"
   },
   "license": "MIT",
-  "keywords": [
-    "node",
-    "glitch",
-    "express"
-  ]
 }
 
