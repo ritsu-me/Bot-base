@@ -17,22 +17,19 @@ client.on('ready', () => {
   client.user.setActivity(client.guilds.cache.size + "serversに導入済み | 暇を持て余した神々の遊び", { type: "COMPETING" },{ status: "online" });
 });
 
-//Login
-client.login(token);
-
 //メッセージ対応
 client.on('message', async message =>{
   if (message.author.bot) return;
-if (message.content === "にゃーん"){
+  if (message.content === "にゃーん"){
     message.reply("にゃーん")
-      .then(message => console.log("Sent message: " + "にゃーん"))
-      .catch(console.error);
-    return;
   }
-if (message.content === prefix + "ping") {
-    message.channel.send(":ping_pong:",
-      {embed: {
-         title: ":ping_pong:Pong!",
-         description: "ただいまのPing値は" + client.ws.ping + "msです。"
-      }});
-  };
+  if (!message.content.startsWith(prefix) return;
+  const args = message.content.slice(prefix.length).trim().split(/ +/g);
+  const command = args.shift().toLowerCase()
+  if (command === "ping") {
+    message.channel.send(`只今のPing値は${client.ws.ping}msです。`);
+  }
+)};
+
+//Login
+client.login(token);
