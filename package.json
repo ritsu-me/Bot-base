@@ -7,10 +7,10 @@
     "start": "node index.js"
   },
   "dependencies": {
-    "discord.js": "^12.5.3"
+    "discord.js": "^13.1.0"
   },
   "engines": {
-    "node": "12.x"
+    "node": "16.x"
   },
   "repository": {
     "url": "https://https://github.com/Parunanodesu/Bot-base"
