@@ -14,11 +14,11 @@ const prefix = "k#"
 //起動設定
 client.on('ready', () => {
   console.log(`Logged in as ${client.user.tag}!`);
-  client.user.setActivity(client.guilds.cache.size + "serversに導入済み | 暇を持て余した神々の遊び", { type: "COMPETING" },{ status: "online" });
+  client.user.setActivity(client.guilds.cache.size + "serversに導入済み | 暇を持て余した神々の遊び", { type: "PLAYING" },{ status: "online" });
   client.application.commands.set([
     {
       name: "ping",
-      description: "Ping!"
+      description: "Pong!"
     }
   ]);
 });
